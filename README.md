@@ -1,4 +1,28 @@
 # PrimeTrade.AI
+# Trader Performance vs Market Sentiment Analysis
+
+## Objective
+Analyze how market sentiment affects trader performance and behavior.
+
+## Dataset Used
+- Bitcoin Fear/Greed Index
+- Hyperliquid Historical Trader Data
+
+## Key Insights
+- Fear periods showed highest profitability (209k average PnL)
+- Trading activity increased significantly during Fear periods
+- Extreme Greed showed lowest win rate (40%)
+
+## Strategy Recommendations
+- Increase trading frequency during Fear
+- Reduce position size during Extreme Greed
+
+## Tools Used
+- Python
+- Pandas
+- Seaborn
+- Matplotlib
+- Scikit-learn
 Methodology
 
 This analysis explores the relationship between market sentiment (Fear/Greed index) and trader behavior on Hyperliquid.
